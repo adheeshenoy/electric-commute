@@ -1,0 +1,86 @@
+/* 
+Color Palette
+
+Teal: 62A786
+White: F0F7EE
+Yellow: FFF07C
+
+*/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#brand{
+  width:auto;
+  height:60px;
+}
+
+span{
+  color: #62A786;
+  font-size: 3rem;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.nav-link{
+  font-family: 'MuseoModerno', cursive;
+}
+
+.shadow{
+  border-color: #62A786;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #62A786;
+  outline: 0 none;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus{   
+  border-color: radial-gradient(circle, #FFF07C 0%, #62A786 100%);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #62A786;
+  outline: 0 none;
+}
+
+select:focus{
+  outline:none;
+}
+
+.form-select:focus{
+  border-color: radial-gradient(circle, #FFF07C 0%, #62A786 100%);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #62A786;
+  outline: 0 none;
+}
+
+.nav-link, .nav-link:hover{
+  color: #62A786;
+}
+
+.nav-pills .nav-item .active{
+  background: #62A786;
+}
+
+.submit:hover {
+  color:black;
+  border-color:white;
+  background: linear-gradient(45deg, #62A786, #FFF07C);
+  font-family: 'MuseoModerno', cursive;
+}
+
+.submit{
+  border-color:#62A786;
+  color:#62A786;
+  border-radius: 16px;
+  font-family: 'MuseoModerno', cursive;
+}

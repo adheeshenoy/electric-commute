@@ -1,0 +1,29 @@
+<form action="/" method="post">
+    <% if(type == 'distance'){ %>
+    <label class="form-label">Distance to travel (Miles)</label>
+    <input class="form-control" type="number" name="distance" id="distance-value" required="true" min="0">
+    <br>
+    <label class="form-label">Type of Electric Transport</label>
+    <select class="form-select select-picker" data-live-search="true" required="true" name="distance-picker">
+    <% } else{ %>
+    <label class="form-label">Time to travel (Minutes)</label>
+    <input class="form-control" type="number" name="time" id="time-value" required="true">
+    <br>
+    <label class="form-label">Type of Electric Transport</label>
+    <select class="form-select select-picker" data-live-search="true" required="true" name="time-picker">
+    <% } %>
+    <option value="" selected>Select Transport</option>
+    <option value="Walking">Walking</option>
+    <option value="Boosted Mini S Board">Boosted Mini S Board</option>
+    <option value="Evolve Bamboo GTR 2in1">Evolve Bamboo GTR 2in1</option>
+    <option value="OneWheel XR">OneWheel XR</option>
+    <option value="MotoTec Skateboard">MotoTec Skateboard</option>
+    <option value="Segway Ninebot S">Segway Ninebot S</option>
+    <option value="Segway Ninebot S-PLUS">Segway Ninebot S-PLUS</option>
+    <option value="Razor Scooter">Razor Scooter</option>
+    <option value="GeoBlade 500">GeoBlade 500</option>
+    <option value="Hovertrax Hoverboard">Hovertrax Hoverboard</option>
+    </select>
+    <br>
+    <button class="btn btn-outline-primary submit" type="submit">Submit</button>
+  </form>
